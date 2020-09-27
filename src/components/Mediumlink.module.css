@@ -1,0 +1,19 @@
+.mediumLink {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    border: 1px solid black;
+}
+
+.mediumLink *:first-child {
+    padding: 10px 5px 10px 10px;
+}
+
+.mediumLink *:last-child {
+    padding: 10px 10px 10px 5px;
+}
+
+.mediumLink:hover {
+    color: #8b1b1b;
+    border-color: #8b1b1b;
+}

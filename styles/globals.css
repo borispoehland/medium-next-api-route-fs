@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+img {
+  width: 500px;
+  max-width: 100%;
+  margin: 1rem;
+}
