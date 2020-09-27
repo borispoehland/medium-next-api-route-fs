@@ -17,3 +17,10 @@
     color: #8b1b1b;
     border-color: #8b1b1b;
 }
+
+@media screen and (max-width: 992px) {
+    .mediumLink {
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
