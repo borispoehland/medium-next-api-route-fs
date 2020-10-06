@@ -6,7 +6,7 @@ import MediumLink from "../src/components/MediumLink";
 
 export default function Home() {
   const fetcher = (url) => fetch(url).then((res) => res.json());
-  const { data } = useSWR(`/api/readfiles`, fetcher);
+  const { data } = useSWR('/api/readfiles', fetcher);
 
   return (
     <div className={styles.container}>
